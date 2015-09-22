@@ -156,6 +156,7 @@
 				TargetAttributes = {
 					C77B02B21BAD085A00E2490F = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = C4UE54YNN5;
 					};
 					C77B02C61BAD085B00E2490F = {
 						CreatedOnToolsVersion = 7.0;
@@ -338,10 +339,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DropDownMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaoluuu.DropDownMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -349,10 +353,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DropDownMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaoluuu.DropDownMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -399,6 +406,7 @@
 				C77B02D21BAD085B00E2490F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C77B02D31BAD085B00E2490F /* Build configuration list for PBXNativeTarget "DropDownMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +415,7 @@
 				C77B02D51BAD085B00E2490F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
